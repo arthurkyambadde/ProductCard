@@ -1,0 +1,153 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 3px solid #238f6b;
+  height: 550px;
+  width: 400px;
+  border-radius: 40px;
+  padding: 24px 16px;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+}
+
+.CardHeading {
+  color: #238f6b;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+
+.strategyOffer {
+  font-size: 24px;
+  font-weight: 100;
+  color: #292929;
+  margin-bottom: 60px;
+}
+
+.strategyPrice {
+  color: #111;
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.strategyCredits {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+}
+
+.strategyRate {
+  font-size: 24px;
+  font-weight: 50;
+  color: #292929;
+}
+
+.cardButton {
+  width: 150px;
+  height: 36px;
+  background-color: #238f6b;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.offerTag {
+  background-color: #238f6b;
+  width: 60px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
+  position: absolute;
+  top: -1px;
+  right: 50px;
+  clip-path: polygon(
+    0% 0%,
+    99.9% 0%,
+    100% 15%,
+    100% 100%,
+    100% 100%,
+    50.5% 75.8%,
+    0% 99.8%,
+    0% 15%
+  );
+}
+
+.offerTagName {
+  margin: 0;
+  color: #fff;
+  font-weight: 300;
+}
+
+.offerTagRate {
+  margin: 0;
+  font-weight: 800;
+  font-size: 24px;
+  color: #fff;
+}
+
+.popularityTag {
+  background-color: #00008b;
+  height: 30px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 30px;
+  left: -50px;
+}
+
+.checkedTag {
+  background-color: #00008b;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  top: 251px;
+  left: 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkedTagBackground {
+  content: "";
+  width: 31px;
+  height: 43px;
+  border-radius: 4px;
+  position: absolute;
+  top: 271px;
+  left: 32px;
+  background-color: #00008b;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: rotate(103deg);
+  z-index: -100;
+}
+
+.checkedTick {
+  height: 24px;
+  width: 24px;
+}
+
+.checkedTickBackground {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
